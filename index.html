@@ -1,0 +1,123 @@
+<!-- Connor Squires
+055199137
+cwsquires@myseneca.ca -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="connor squires">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Connor Squires</title>
+</head>
+
+<body>
+    <div class="me">
+        <h1>Connor Squires</h1>
+    </div>
+    <div class="buttons">
+        <button type="submit" class="btn" onclick="window.open('ProperResume1.pdf')"><i class="fa fa-download"></i>
+            Resume</button>
+        <button type="button" class="btn"><a href="#data" style="text-decoration:none;">Contact Me</button></a>
+    </div>
+    <div class="about">
+        <h1 id="aboutMe"><i class="fa fa-id-card"></i> About Me</h1>
+        <ul class="flexbox-container">
+            <li class="flex-item">
+                <h3>Academic Honesty</h3>
+                <p>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy.
+                    No part of this assessment has been copied manually or electronically from any other source
+                    (including web sites) except for the information supplied by the WEB222 instructors and / or
+                    made available in this assessment for my use. I also declare that no part of this assignment has
+                    been distributed to other students.</p>
+            </li>
+            <li class="flex-item">
+                <h3>Information</h3>
+                <ul class="infoList">
+                    <li id="infoTitles">Age</li>
+                    <li id="infoTitles">Email</li>
+                    <li id="infoTitles">Language</li>
+                    <li id="infoTitles">Class Section</li>
+                    <li id="infoTitles">Student ID</li>
+                    <li id="infoTitles">Instructor</li>
+                </ul>
+                <ul class="infoList">
+                    <li>31</li>
+                    <li>cwsquires@myseneca.ca</li>
+                    <li>English</li>
+                    <li>NGG</li>
+                    <li>055199137</li>
+                    <li>Harry Scanlan</li>
+                </ul>
+            </li>
+    </div>
+    <div class="education">
+        <h1><i class="fa fa-graduation-cap"></i> Education</h1>
+        <div class="w3-card-4">
+            <header class="w3-container w3-green">
+                <h3>Algonquin College</h3>
+                <h4>Television Broadcasting Diploma</h4>
+                <h5>2013-2015</h5>
+            </header>
+        </div>
+        <div class="w3-card-4">
+            <header class="w3-container w3-blue">
+                <h3>Seneca College</h3>
+                <h4>Computer Programming & Analysis Diploma</h4>
+                <h5>2022-2024(Expected)</h5>
+            </header>
+        </div>
+    </div>
+    <div id="error"></div>
+    <form id="data" name="data" action="https://httpbin.org/post" method="POST">
+        <div class="form-group">
+            <h1><i class="fa fa-info-circle"></i> Contact Me</h1>
+            <label id="one" for="name">Name</label>
+            <input id="name" name="name" size="25" maxlength="50">
+            <label id="one" for="email">Email</label>
+            <input class="form-control" id="email" name="email" placeholder="email@example.com">
+            <label id="one" for="address">Address</label>
+            <input id="address" type="text" name="address" size="25" maxlength="15">
+            <label id="one" for="city">City</label>
+            <input type="text" id="city" name="city" list="suggestions" />
+            <datalist id="suggestions">
+                <option value="Calgary"></option>
+                <option value="Edmonton"></option>
+                <option value="Iqualuit"></option>
+                <option value="Ottawa"></option>
+                <option value="Montreal"></option>
+                <option value="St. John"></option>
+                <option value="St. John's"></option>
+                <option value="Toronto"></option>
+                <option value="Vancouver"></option>
+                <option value="Whitehorse"></option>
+                <option value="Winnipeg"></option>
+                <option value="Yellowknife"></option>
+            </datalist>
+            <label id="one" for="postal-code">Postal Code</label>
+            <input id="postal-code" name="postal-code" size="8" maxlength="7"><br>
+            <label for="question">Question
+                <input type="radio" id="question" name="radio" onclick="hiringClick(0);"></label>
+            <label for="comment">Comment
+                <input type="radio" id="comment" name="radio" onclick="hiringClick(0);"></label>
+            <label for="hiring">Hiring
+                <input type="radio" id="hiring" name="radio" onclick="hiringClick(1);"></label><br>
+            <label for="wage" id="wageTitle">Hourly Rate $</label>
+            <input type="number" id="wage" name="wage">
+            <label id="one" for="company">Company Name</label>
+            <input type="text" id="company" name="company">
+            <label id="one" for="date">Date</label>
+            <input id="date" name="date" placeholder="MM/DD/YY">
+            <label id="one" for="feedback">Feedback</label>
+            <textarea class="form-control" id="feedback" name="feedback" rows="5" cols="60"></textarea><br>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>

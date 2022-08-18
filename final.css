@@ -1,0 +1,84 @@
+html {
+    font-size: 62.5%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        "Noto Sans", sans-serif;
+    max-width: 1024px;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.618;
+    margin: auto;
+    color: #4a4a4a;
+    background-color: #f9f9f9;
+    padding: 13px;
+    text-align: center;
+}
+
+.me {
+    font-weight: bolder;
+}
+
+#aboutMe {
+    text-align: right;
+}
+
+.about {
+    text-align: left;
+}
+
+#honesty {
+    width: 500px;
+}
+
+.education {
+    text-align: left;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-item {
+    flex: 1 0 21%;
+    padding: 5px;
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 500px;
+    list-style-type: none;
+}
+
+.infoList {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#infoTitles {
+    font-weight: bolder;
+}
+
+.form-group {
+    border-radius: 5px;
+    background-color: #f3c06d;
+    padding: 20px;
+    position: relative;
+}
+
+#one {
+    display: grid;
+}
+
+#error {
+    font-weight: bolder;
+}
