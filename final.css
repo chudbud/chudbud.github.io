@@ -119,4 +119,7 @@ a:visited {
             "Noto Sans", sans-serif;
         margin-right: 5em;
     }
+    .infoList {
+        display:table;
+    }
 }
