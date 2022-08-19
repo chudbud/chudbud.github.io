@@ -4,16 +4,6 @@ html {
         "Noto Sans", sans-serif;
 }
 
-@media screen and (max-width: 400px) {
-    body {
-        max-width: 380px;
-    }
-}
-
-@viewport {
-    max-width: 1024px;
-}
-
 body {
     font-size: 1.8rem;
     line-height: 1.618;
@@ -120,6 +110,11 @@ a:visited {
     font-weight: bolder;
 }
 
-#contact {
-    /* margin-left: 2em; */
+@media screen and (max-width: 400px) {
+    html {
+        /* font-size: 62.5%;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+            "Noto Sans", sans-serif; */
+        max-width: 380px;
+    }
 }
