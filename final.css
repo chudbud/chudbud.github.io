@@ -2,6 +2,7 @@ html {
     font-size: 62.5%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
         "Noto Sans", sans-serif;
+    max-width: 95vw;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
     background-color: white;
     padding: 13px;
     text-align: center;
-    /* max-width: 1024px; */
 }
 
 .me {
@@ -112,9 +112,8 @@ a:visited {
 
 @media screen and (max-width: 400px) {
     html {
-        /* font-size: 62.5%;
+        font-size: 30.0%;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-            "Noto Sans", sans-serif; */
-        max-width: 380px;
+            "Noto Sans", sans-serif;
     }
 }
