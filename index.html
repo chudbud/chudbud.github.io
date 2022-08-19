@@ -22,7 +22,7 @@ cwsquires@myseneca.ca -->
         <h4>Software Designer</h4>
     </div>
     <div class="buttons">
-        <button type="submit" class="btn" onclick="window.open('ProperResume1.pdf')"><i class="fa fa-download"></i>
+        <button type="button" class="btn" onclick="window.open('ProperResume1.pdf')"><i class="fa fa-download"></i>
             Resume</button>
         <button type="button" class="btn"><a href="#data" style="text-decoration:none;">Contact Me</button></a>
     </div>
@@ -36,6 +36,7 @@ cwsquires@myseneca.ca -->
                     (including web sites) except for the information supplied by the WEB222 instructors and / or
                     made available in this assessment for my use. I also declare that no part of this assignment has
                     been distributed to other students.</p>
+                    <p id="date-display"></p>
             </li>
             <li class="flex-item">
                 <h3>Information</h3>
@@ -75,7 +76,7 @@ cwsquires@myseneca.ca -->
         </div>
     </div>
     <div id="error"></div>
-    <h1><i class="fa fa-info-circle"></i> Contact Me</h1>
+    <h1 id="contact"><i class="fa fa-info-circle"></i> Contact Me</h1>
     <form id="data" name="data" action="https://httpbin.org/post" method="POST">
         <div class="form-group">
             <label id="one" for="name">Name</label>
@@ -114,7 +115,7 @@ cwsquires@myseneca.ca -->
             <input type="text" id="company" name="company">
             <label id="one" for="date">Date</label>
             <input id="date" name="date" placeholder="MM/DD/YY">
-            <label id="one" for="feedback">Feedback</label>
+            <label id="one" for="feedback">Message</label>
             <textarea class="form-control" id="feedback" name="feedback" rows="5"></textarea><br>
             <button type="submit">Submit</button>
         </div>

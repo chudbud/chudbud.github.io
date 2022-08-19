@@ -9,6 +9,9 @@ var error = document.getElementById('error');
 var formWage = document.getElementById('wage');
 var wageTitle = document.getElementById('wageTitle');
 var formCompany = document.getElementById('company');
+var dateDisplay = document.getElementById('date-display');
+//printing date
+dateDisplay.innerHTML = "Date: " + new Date().toDateString();
 //setting default displays for wage
 formWage.style.display = 'none';
 wageTitle.style.display = 'none';
