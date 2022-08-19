@@ -2,6 +2,15 @@ html {
     font-size: 62.5%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
         "Noto Sans", sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        max-width: 380px;
+    }
+}
+
+@viewport {
     max-width: 1024px;
 }
 
@@ -13,7 +22,7 @@ body {
     background-color: white;
     padding: 13px;
     text-align: center;
-    width: 95vw;
+    /* max-width: 1024px; */
 }
 
 .me {
@@ -25,9 +34,9 @@ body {
 }
 
 .about {
-    margin-left: 5em;
+    /* margin-left: 5em; */
     text-align: left;
-    border-radius: 1px;
+    border-radius: 25px;
     background-color: blanchedalmond;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -38,7 +47,7 @@ body {
 
 .education {
     text-align: left;
-    margin-left: 5em;
+    /* margin-left: 5em; */
 }
 
 .btn {
@@ -48,6 +57,25 @@ body {
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
+    border-radius: 25px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.edu-container {
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: #33a4f0;
+    padding: 20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 10px;
 }
 
 .flexbox-container {
@@ -76,8 +104,8 @@ body {
 }
 
 .form-group {
-    margin-left: 5em;
-    border-radius: 5px;
+    /* margin-left: 5em; */
+    border-radius: 25px;
     background-color: #f3c06d;
     padding: 20px;
     position: relative;
@@ -93,5 +121,5 @@ body {
 }
 
 #contact {
-    margin-left: 2em;
+    /* margin-left: 2em; */
 }
