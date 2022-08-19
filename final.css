@@ -120,6 +120,6 @@ a:visited {
         margin-right: 5em;
     }
     .infoList {
-        display:table;
+        display:inline;
     }
 }
