@@ -27,6 +27,7 @@ body {
     text-align: left;
     border-radius: 5px;
     background-color: blanchedalmond;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #honesty {
@@ -76,6 +77,7 @@ body {
     background-color: #f3c06d;
     padding: 20px;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #one {
