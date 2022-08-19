@@ -66,6 +66,7 @@ body {
 .infoList {
     display: inline-block;
     list-style-type: none;
+    font-size: 1vw;
 }
 
 #infoTitles {
