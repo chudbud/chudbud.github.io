@@ -8,7 +8,8 @@ html {
 body {
     font-size: 1.8rem;
     line-height: 1.618;
-    margin: 0;
+    margin-right: 0;
+    margin-left: 4em;
     color: #4a4a4a;
     background-color: white;
     padding: 13px;
@@ -24,7 +25,7 @@ body {
 }
 
 .about {
-    margin-left: 5em;
+    /* margin-left: 5em; */
     text-align: left;
     border-radius: 25px;
     background-color: blanchedalmond;
@@ -37,7 +38,7 @@ body {
 
 .education {
     text-align: left;
-    margin-left: 5em;
+    /* margin-left: 5em; */
 }
 
 .btn {
@@ -94,7 +95,7 @@ a:visited {
 }
 
 .form-group {
-    margin-left: 5em;
+    /* margin-left: 5em; */
     border-radius: 25px;
     background-color: #f3c06d;
     padding: 20px;
